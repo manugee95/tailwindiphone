@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Star Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["ui-sans-serif", "system-ui"],
+            serif: ["ui-serif", "Georgia"],
+            mono: ["ui-monospace", "SFMono-Regular"],
+            montserrat: ["Montserrat", "sans-serif"],
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-montserrat">
+    <!-- header -->
+    <div class="border-b-[0.5px] border-black">
+      <div class="w-[80%] mx-auto flex justify-between py-5">
+        <div>
+          <p class="text-2xl">Star Tech</p>
+        </div>
+        <div>
+          <div class="block lg:hidden">
+            <p>Menu <i class="bx bx-menu"></i></p>
+          </div>
+          <ul class="hidden lg:flex lg:space-x-5">
+            <li>Features</li>
+            <li>Download</li>
+            <li class="bg-blue-600 p-3 rounded-full text-white mt-[-3%]">
+              <i class="bx bxs-message-rounded-dots"></i> Send Feedback
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- header done -->
+
+    <!-- first layer -->
+    <div class="bg-[#f5f5f5]">
+      <div
+        class="w-full lg:w-[80%] mx-auto flex flex-col lg:flex lg:flex-row lg:justify-between py-[5%] items-center text-center lg:items-start lg:text-start"
+      >
+        <div class="w-[50%]">
+          <h1 class="text-5xl lg:text-7xl font-bold mb-[5%]">
+            Showcase your app beautifully.
+          </h1>
+          <p class="mb-[8%] text-lg lg:text-base">
+            Launch your mobile app landing page faster with this free, open
+            source theme from Start Bootstrap!
+          </p>
+          <div
+            class="flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5 items-center"
+          >
+            <img
+              class="w-[150px] lg:h-[50px]"
+              src="/img/apple_new.png"
+              alt=""
+            />
+            <img
+              class="w-[150px] lg:h-[50px]"
+              src="/img/google_new.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div>
+          <img
+            class="h-[300px] mt-5 lg:h-[500px]"
+            src="/img/iphone_new.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- first layer done -->
+
+    <!-- second layer -->
+    <div class="bg-gradient-to-r from-blue-700 to-purple-700 py-[5%]">
+        <div class="w-[50%] mx-auto flex flex-col items-center">
+            <p class="text-white text-3xl text-center">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</p>
+            <img src="/img/emmanuel.png" alt="" class="h-[50px] mt-[5%] rounded-full">
+        </div>
+    </div>
+    <!-- second layer done -->
+
+    <!-- third layer -->
+    <div class="bg-[#f5f5f5] text-center">
+        <div class="w-full lg:w-[80%] items-center lg:items-start mx-auto flex flex-col-reverse lg:flex-row lg:justify-between py-[5%]">
+            <div class="w-full flex justify-center lg:justify-start lg:w-[40%]">
+                <img class="h-[300px] mt-10 lg:mt-0 lg:h-[500px]" src="/img/iphone_new.png" alt="">
+            </div>
+            <div class="w-[80%] mx-auto lg:w-[60%] flex flex-col md:flex-row md:flex-wrap justify-between">
+                <div class="w-[70%] mx-auto md:w-[50%] mt-5 text-center">
+                    <i class='bx bx-mobile-alt text-7xl text-blue-700'></i>
+                    <h1 class="text-xl font-bold">Device Mockups</h1>
+                    <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                </div>
+                <div class="w-[70%] mx-auto md:w-[50%] mt-5 text-center">
+                    <i class='bx bx-camera text-7xl text-blue-700'></i>
+                    <h1 class="text-xl font-bold">Flexible Use</h1>
+                    <p>Put an image, video, animation, or anything else in the screen!</p>
+                </div>
+                <div class="w-[70%] mx-auto md:w-[50%] mt-5 text-center">
+                    <i class='bx bx-gift text-7xl text-blue-700'></i>
+                    <h1 class="text-xl font-bold">Free to Use</h1>
+                    <p>As always, this theme is free to download and use for any purpose!</p>
+                </div>
+                <div class="w-[70%] mx-auto md:w-[50%] mt-5 text-center">
+                    <i class='bx bx-badge-check text-7xl text-blue-700'></i>
+                    <h1 class="text-xl font-bold">Open Source</h1>
+                    <p>Since this theme is MIT licensed, you can use it commercially!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- third layer done -->
+  </body>
+</html>
